@@ -7,7 +7,8 @@ dpkg -i Nessus-8.14.0-debian6_amd64.deb
 systemctl enable --now nessusd
 ```
 
-## Sqlmap
+## Sqlmap
+
 ¿A qué hace referencia el output nos ha facilitado?
 Nos proporciona el usuario de la bdd:
 user(): 'acuart@localhost'
@@ -26,12 +27,13 @@ Estas son las bdd encontradas:
 > 
 El contenido de las tablas
 
-## openvas
+## Openvas
 
 Instalar build-esssentials y seguir este tutorial:
 `apt install build-essentials`
 
 https://sadsloth.net/post/install-gvm-20_08-src-on-debian/
 
-## Segundo escaneo Openvas
+## Segundo escaneo Openvas
+
 > Pregunta 3 : Crea un script que acepte un parámetro $1 que sea un hostname. Con ese parámetro debe crear y lanzar un escaneo a el wordpress que aprovisonamos en la pregunta anterior.
